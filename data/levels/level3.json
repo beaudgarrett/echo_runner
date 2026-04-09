@@ -1,0 +1,49 @@
+{
+  "background": "level3",
+  "world_width": 3000,
+  "platforms": [
+    { "x": 100, "y": 650, "width": 300 },
+    { "x": 500, "y": 550, "width": 200 },
+    { "x": 800, "y": 600, "width": 250 },
+    { "x": 1150, "y": 500, "width": 700 },
+    { "x": 1950, "y": 600, "width": 250 },
+    { "x": 2300, "y": 550, "width": 200 },
+    { "x": 2600, "y": 650, "width": 300 }
+  ],
+  "drone_spawns": [
+    { "x": 400, "y": 450 },
+    { "x": 600, "y": 450 },
+    { "x": 850, "y": 480 },
+    { "x": 950, "y": 420 },
+    { "x": 1300, "y": 380 },
+    { "x": 1700, "y": 400 },
+    { "x": 1800, "y": 400 },
+    { "x": 2100, "y": 460 },
+    { "x": 2400, "y": 450 },
+    { "x": 2700, "y": 520 }
+  ],
+  "items": [
+    { "type": "EnergyDrink", "x": 900, "y": 550 },
+    { "type": "LifeRestore", "x": 1300, "y": 450 },
+    { "type": "EnergyDrink", "x": 1500, "y": 450 },
+    { "type": "EnergyDrink", "x": 2100, "y": 550 },
+    { "type": "EasterEgg", "x": 2700, "y": 500 }
+  ],
+  "npcs": [
+    {
+      "type": "GlitchTerminal",
+      "x": 250,
+      "y": 600,
+      "lore": [
+        ">> ARCHON CORE ACCESS:",
+        "CONSCIOUSNESS TRANSFER SUCCESSFUL",
+        "YOU CANNOT DELETE YOUR CREATOR"
+      ]
+    }
+  ],
+  "boss": {
+    "type": "ARCHON",
+    "x": 1500,
+    "y": 300
+  }
+}

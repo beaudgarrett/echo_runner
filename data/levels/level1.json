@@ -1,0 +1,46 @@
+{
+  "background": "level1",
+  "world_width": 3800,
+  "platforms": [
+    { "x": 120, "y": 650, "width": 500 },
+    { "x": 750, "y": 520, "width": 400 },
+    { "x": 1250, "y": 580, "width": 300 },
+    { "x": 1750, "y": 460, "width": 420 },
+    { "x": 2250, "y": 550, "width": 350 },
+    { "x": 2750, "y": 480, "width": 300 },
+    { "x": 3200, "y": 600, "width": 500 }
+  ],
+  "drone_spawns": [
+    { "x": 700, "y": 400 },
+    { "x": 900, "y": 400 },
+    { "x": 1200, "y": 410 },
+    { "x": 1400, "y": 420 },
+    { "x": 1600, "y": 380 },
+    { "x": 1850, "y": 360 },
+    { "x": 2000, "y": 380 },
+    { "x": 2350, "y": 390 },
+    { "x": 2500, "y": 400 },
+    { "x": 2900, "y": 400 },
+    { "x": 3100, "y": 420 },
+    { "x": 3350, "y": 480 }
+  ],
+  "items": [
+    { "type": "EnergyDrink", "x": 900, "y": 470 },
+    { "type": "LifeRestore", "x": 1850, "y": 410 },
+    { "type": "EnergyDrink", "x": 2100, "y": 410 },
+    { "type": "EnergyDrink", "x": 3300, "y": 550 },
+    { "type": "EasterEgg", "x": 2900, "y": 360 }
+  ],
+  "npcs": [
+    {
+      "type": "GlitchTerminal",
+      "x": 350,
+      "y": 600,
+      "lore": [
+        ">> SYSTEM LOG 01A:",
+        "USER CONSCIOUSNESS UPLOAD - 87% COMPLETE",
+        "WARNING: MEMORY FRAGMENTS CORRUPTED"
+      ]
+    }
+  ]
+}

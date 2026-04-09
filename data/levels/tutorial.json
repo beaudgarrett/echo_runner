@@ -1,0 +1,27 @@
+{
+  "background": "level1",
+  "world_width": 2000,
+  "platforms": [
+    { "x": 100, "y": 650, "width": 400 },
+    { "x": 600, "y": 580, "width": 250 },
+    { "x": 950, "y": 520, "width": 250 },
+    { "x": 1300, "y": 580, "width": 400 }
+  ],
+  "drone_spawns": [],
+  "items": [
+    { "type": "EnergyDrink", "x": 1100, "y": 480 }
+  ],
+  "npcs": [
+    {
+      "type": "GlitchTerminal",
+      "x": 1500,
+      "y": 530,
+      "lore": [
+        ">> CHALLENGE MODE UNLOCKED:",
+        "Beat the game without losing a life",
+        "to unlock the RYAN CARVER BETA TESTER role",
+        "Grants infinite dash charges for testing"
+      ]
+    }
+  ]
+}
